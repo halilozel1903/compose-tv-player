@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 320 x 180 dp launcher banner for Android TV: a dusk coast frame with a chaptered seek bar. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="320dp"
+    android:height="180dp"
+    android:viewportWidth="320"
+    android:viewportHeight="180">
+    <path android:pathData="M0,0h320v112h-320z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:endX="0"
+                android:endY="112"
+                android:startX="0"
+                android:startY="0"
+                android:type="linear">
+                <item android:color="#FF2B1B45" android:offset="0" />
+                <item android:color="#FFE2725B" android:offset="1" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <path
+        android:fillColor="#FF2B2447"
+        android:pathData="M0,112h320v68h-320z" />
+    <!-- Sun and its reflection -->
+    <path
+        android:fillColor="#FFFFB27A"
+        android:pathData="M96,82m-16,0a16,16 0,1 1,32 0a16,16 0,1 1,-32 0" />
+    <path
+        android:fillColor="#66FFB27A"
+        android:pathData="M84,118h24v3h-24z M80,126h32v3h-32z M76,134h40v3h-40z" />
+    <!-- Cliff and lighthouse -->
+    <path
+        android:fillColor="#FF120E1E"
+        android:pathData="M196,180C206,140 218,112 244,104L320,96L320,180Z" />
+    <path
+        android:fillColor="#FF2A2238"
+        android:pathData="M262,102L265,56L275,56L278,102Z" />
+    <path
+        android:fillColor="#FFFFE7A8"
+        android:pathData="M270,52m-5,0a5,5 0,1 1,10 0a5,5 0,1 1,-10 0" />
+    <path
+        android:fillColor="#40FFE7A8"
+        android:pathData="M270,52L150,30L146,70Z" />
+    <!-- Scrim, seek bar with chapter gaps, and the focused thumb -->
+    <path
+        android:fillColor="#99000000"
+        android:pathData="M0,140h320v40h-320z" />
+    <path
+        android:fillColor="#FFFFB86B"
+        android:pathData="M24,158h66v4h-66z M94,158h56v4h-56z" />
+    <path
+        android:fillColor="#66FFFFFF"
+        android:pathData="M154,158h70v4h-70z M228,158h68v4h-68z" />
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M150,160m-7,0a7,7 0,1 1,14 0a7,7 0,1 1,-14 0" />
+    <!-- Skip intro pill -->
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M232,118h56a8,8 0,0 1,8 8v0a8,8 0,0 1,-8 8h-56a8,8 0,0 1,-8 -8v0a8,8 0,0 1,8 -8z" />
+    <path
+        android:fillColor="#FF101318"
+        android:pathData="M236,121l8,5l-8,5z M246,125h40v2h-40z" />
+</vector>
